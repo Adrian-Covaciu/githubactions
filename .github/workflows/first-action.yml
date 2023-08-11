@@ -7,4 +7,4 @@ jobs:
       - name: Print greeting
         run: echo "Hello world"
       - name: Print hostname and IP
-        run: echo "hostname && hostname -I"
+        run: hostname && hostname -I
